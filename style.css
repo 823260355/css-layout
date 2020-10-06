@@ -12,3 +12,40 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    height: 75px;
+}
+header img {	
+    border-radius: 40px;
+    position: fixed;
+    top: 7px;
+    left: 3%;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    width: 250px;
+    line-height: 80px;
+    margin: 0 auto;
+}
+
+header ul {
+    position: fixed;
+    right: 5%;
+    top: 25px;
+}
+
+header li {
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
